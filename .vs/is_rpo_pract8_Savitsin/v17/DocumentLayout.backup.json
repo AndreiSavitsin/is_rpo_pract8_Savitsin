@@ -1,0 +1,272 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\basket.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:basket.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\basket.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:basket.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\contacts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:contacts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\contacts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:contacts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\productsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:productsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\productdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:productdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\productdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:productdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|c:\\users\\st328-04\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_savitsin-main\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0D4149-FE8C-4A0A-9319-73AD109928FF}|is_rpo_pract8_Savitsin.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Basket.xaml",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Basket.xaml",
+              "RelativeDocumentMoniker": "Basket.xaml",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Basket.xaml",
+              "RelativeToolTip": "Basket.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-24T05:47:12.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Basket.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Basket.xaml.cs",
+              "RelativeDocumentMoniker": "Basket.xaml.cs",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Basket.xaml.cs",
+              "RelativeToolTip": "Basket.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T05:47:15.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contacts.xaml",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Contacts.xaml",
+              "RelativeDocumentMoniker": "Contacts.xaml",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Contacts.xaml",
+              "RelativeToolTip": "Contacts.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-24T05:20:38.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Catalog.xaml",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Catalog.xaml",
+              "RelativeDocumentMoniker": "Catalog.xaml",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Catalog.xaml",
+              "RelativeToolTip": "Catalog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-23T11:39:34.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Catalog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Catalog.xaml.cs",
+              "RelativeDocumentMoniker": "Catalog.xaml.cs",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Catalog.xaml.cs",
+              "RelativeToolTip": "Catalog.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwBgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T11:39:32.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\CartItem.cs",
+              "RelativeDocumentMoniker": "CartItem.cs",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\CartItem.cs",
+              "RelativeToolTip": "CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T05:57:52.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contacts.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Contacts.xaml.cs",
+              "RelativeDocumentMoniker": "Contacts.xaml.cs",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Contacts.xaml.cs",
+              "RelativeToolTip": "Contacts.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T06:21:44.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Home.xaml",
+              "RelativeDocumentMoniker": "Home.xaml",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Home.xaml",
+              "RelativeToolTip": "Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-23T11:53:47.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\ProductDetail.xaml.cs",
+              "RelativeDocumentMoniker": "ProductDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\ProductDetail.xaml.cs",
+              "RelativeToolTip": "ProductDetail.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T12:50:43.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductsData.cs",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\ProductsData.cs",
+              "RelativeDocumentMoniker": "ProductsData.cs",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\ProductsData.cs",
+              "RelativeToolTip": "ProductsData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T12:33:11.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "Home.xaml.cs",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Home.xaml.cs",
+              "RelativeToolTip": "Home.xaml.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAqwGYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T12:18:21.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDetail.xaml",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\ProductDetail.xaml",
+              "RelativeDocumentMoniker": "ProductDetail.xaml",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\ProductDetail.xaml",
+              "RelativeToolTip": "ProductDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-23T12:50:41.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwC0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T11:43:21.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T12:30:01.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\st328-04\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D\\is_rpo_pract8_Savitsin-main\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Styles\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-23T11:55:35.163Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

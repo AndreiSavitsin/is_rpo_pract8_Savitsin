@@ -1,0 +1,66 @@
+﻿<Page x:Class="is_rpo_pract8_Savitsin.Basket"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:is_rpo_pract8_Savitsin"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Basket">
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition MinWidth="300" MaxWidth="500" Width="Auto"/>
+            <ColumnDefinition Width="250"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="350"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <ListView Grid.Column="1" Grid.Row="1" 
+                  ItemsSource="{Binding Basket}" 
+                  SelectedItem="{Binding SelectedProduct}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock TextWrapping="Wrap" MaxWidth="100" Grid.Row="0" Grid.Column="1" Style="{StaticResource ProductTextBlock}" Text="{Binding Name}"/>
+                            <TextBlock TextWrapping="Wrap" MaxWidth="100" Grid.Row="1" Grid.Column="0" Style="{StaticResource ProductTextBlock}" Text="{Binding Price}"/>
+                            <TextBlock TextWrapping="Wrap" MaxWidth="100" Grid.Row="1" Grid.Column="1" Style="{StaticResource ProductTextBlock}" Text="{Binding Quantity}"/>
+                            <Image Grid.Row="0" Grid.Column="0" Source="{Binding PathPhoto}" Width="200" Height="150" Stretch="Uniform"/>
+                        </Grid>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Border Margin="5" Grid.Row="1" Grid.Column="2" CornerRadius="15" Background="DarkOrange">
+            <StackPanel>
+                <TextBlock Text="Введите промокод"/>
+                <TextBox x:Name="txtPromocode"/>
+                <TextBlock Text="Итоговая сумма заказа"/>
+                <TextBlock Text="{Binding TotalPrice}"/>
+                <Button Content="Оформить заказ" Click="btnMakeOrder"/>
+                <Button Content="Продолжить покупки" Click="btnContinueShopping"/>
+                <Button Content="Удалить товар" Click="btnDel"/>
+            </StackPanel>
+        </Border>
+        
+    </Grid>
+</Page>

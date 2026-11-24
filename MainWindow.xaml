@@ -1,0 +1,46 @@
+﻿<Window x:Class="is_rpo_pract8_Savitsin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:is_rpo_pract8_Savitsin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Menu Grid.Column="0" Width="100" Background="Orange" HorizontalAlignment="Left">
+            <TextBlock Text="Меню"/>
+            
+            <MenuItem Click="Home_Click">
+                <MenuItem.Header>
+                    <TextBlock MaxWidth="100" TextWrapping="Wrap" Text="Главная"/>
+                </MenuItem.Header>
+            </MenuItem>
+
+            <MenuItem Click="Catalog_Click">
+                <MenuItem.Header>
+                    <TextBlock MaxWidth="100" TextWrapping="Wrap" Text="Каталог"/>
+                </MenuItem.Header>
+            </MenuItem>
+
+            <MenuItem Click="Basket_Click">
+                <MenuItem.Header>
+                    <TextBlock MaxWidth="100" TextWrapping="Wrap" Text="Корзина"/>
+                </MenuItem.Header>
+            </MenuItem>
+
+            <MenuItem Click="Contacts_Click">
+                <MenuItem.Header>
+                    <TextBlock MaxWidth="100" TextWrapping="Wrap" Text="Контакты"/>
+                </MenuItem.Header>
+            </MenuItem>
+
+        </Menu>
+        <Frame Grid.Column="1" x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        
+    </Grid>
+</Window>

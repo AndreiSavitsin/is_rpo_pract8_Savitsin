@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Computer.png" />
+    <None Remove="Images\Keyboard.png" />
+    <None Remove="Images\Laptop.png" />
+    <None Remove="Images\Mouse.png" />
+    <None Remove="Images\Phone.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Computer.png" />
+    <Resource Include="Images\Keyboard.png" />
+    <Resource Include="Images\Laptop.png" />
+    <Resource Include="Images\Mouse.png" />
+    <Resource Include="Images\Phone.png" />
+  </ItemGroup>
+
+</Project>
