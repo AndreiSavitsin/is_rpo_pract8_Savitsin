@@ -93,24 +93,32 @@ namespace is_rpo_pract8_Savitsin
 
         private void Search_Click(object sender, RoutedEventArgs e)
         {
-            bool found = false;
-            for (int i = 0; i < Products.Count; i++)
+            string searchText = txtInput.Text.Trim().ToLower();
+
+            if (string.IsNullOrEmpty(searchText))
             {
-                if (Products[i].Name.ToLower().Contains(txtInput.Text.ToLower()))
-                {
-                    found = true;
-                }
+                NavigationService.Navigate(new Catalog(Products));
+                return;
             }
 
-            if (found == true)
+            
+            var foundProducts = Products.Where(p => p.Name.ToLower().Contains(searchText)).ToList();
+
+            if (foundProducts.Any())
             {
                 MessageBox.Show("Товар присутствует в каталоге", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Information);
-                NavigationService.Navigate(new Catalog(Products));
+
+               
+                var searchResultCollection = new ObservableCollection<Product>(foundProducts);
+                NavigationService.Navigate(new Catalog(searchResultCollection));
             }
             else
             {
                 MessageBoxResult result = MessageBox.Show("Товар отсутствует в каталоге.\nПредлагаем ознакомиться с каталогом", "Уведомление", MessageBoxButton.YesNo, MessageBoxImage.Information);
-                if (result == MessageBoxResult.Yes) NavigationService.Navigate(new Catalog(Products));
+                if (result == MessageBoxResult.Yes)
+                {
+                    NavigationService.Navigate(new Catalog(Products));
+                }
             }
         }
     }

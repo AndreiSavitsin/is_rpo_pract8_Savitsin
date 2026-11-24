@@ -7,30 +7,42 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ProductDetail">
-    <Grid>
 
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
-            <ColumnDefinition MinWidth="300" MaxWidth="500"/>
-            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="10"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="10"/>
-        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Grid.Column="0" Background="White" CornerRadius="15" Padding="10" Margin="0,0,15,15">
+            <Image Source="{Binding PathPhoto}" Width="300" Height="250" Stretch="Uniform"/>
+        </Border>
 
-        <Border CornerRadius="15" Background="DarkOrange" Grid.Column="1" Grid.Row="1">
+        <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
+            <TextBlock Text="{Binding Name}" FontSize="28" FontWeight="Bold" Style="{StaticResource ProductTextBlock}"/>
+            <TextBlock Text="{Binding Price, StringFormat={}{0} ₽}" FontSize="22" Foreground="DarkOrange" FontWeight="SemiBold" Style="{StaticResource ProductTextBlock}"/>
+        </StackPanel>
+
+        <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Background="DarkOrange" CornerRadius="15" Padding="15">
             <StackPanel>
-                <Image Grid.Row="0" Grid.Column="0" Source="{Binding PathPhoto}" Width="200" Height="150" Stretch="Uniform"/>
-                <TextBlock Text="{Binding Name}"/>
-                <TextBlock Text="{Binding Price}"/>
-                <TextBlock TextWrapping="Wrap" MaxWidth="350" Text="{Binding Description}"/>
-                <TextBlock Text="{Binding Category}"/>
-                <Button Content="Добавить в корзину" Click="btnAddToBasket"/>
+                <TextBlock Text="Описание:" FontWeight="Bold"/>
+                <TextBlock Text="{Binding Description}" TextWrapping="Wrap" MaxWidth="600" HorizontalAlignment="Left"/>
+
+                <StackPanel Orientation="Horizontal" Margin="0,15,0,0">
+                    <TextBlock Text="{Binding Category, StringFormat=Категория: {0}}" Margin="0,0,20,0"/>
+                    <TextBlock Text="{Binding Brand, StringFormat=Бренд: {0}}"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,15,0,0" VerticalAlignment="Center">
+                    <TextBlock Text="Количество:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox x:Name="txtQuantity" Width="50" Height="30" Text="1" TextAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Button Content="Добавить в корзину" Click="btnAddToBasket" Margin="20,0,0,0" Width="200"/>
+                </StackPanel>
             </StackPanel>
         </Border>
-        
     </Grid>
 </Page>

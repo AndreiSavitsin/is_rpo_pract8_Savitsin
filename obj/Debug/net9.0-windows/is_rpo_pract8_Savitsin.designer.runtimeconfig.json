@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\st328-04\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\st328-04\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\Andryxa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Andryxa\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,

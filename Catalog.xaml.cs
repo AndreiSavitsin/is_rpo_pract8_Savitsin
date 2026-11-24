@@ -1,67 +1,91 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace is_rpo_pract8_Savitsin
 {
-    /// <summary>
-    /// Логика взаимодействия для Catalog.xaml
-    /// </summary>
     public partial class Catalog : Page
     {
         public ObservableCollection<Product> Products { get; set; }
         public Product SelectedProduct { get; set; }
+
+        private ObservableCollection<Product> _allProducts;
+
         public Catalog(ObservableCollection<Product> products)
-        {                        
-            InitializeComponent();
-            Products = products;
-            DataContext = this;
-        }
-
-        private void Product_Click(object sender, RoutedEventArgs e)
         {
-            if (SelectedProduct == null) return;
+            InitializeComponent();
 
-            NavigationService.Navigate(new ProductDetail(SelectedProduct));
+            _allProducts = new ObservableCollection<Product>(products);
+            Products = new ObservableCollection<Product>(products);
+
+            DataContext = this;
         }
 
         private void btnSortByPrice(object sender, RoutedEventArgs e)
         {
             var sorted = Products.OrderBy(p => p.Price).ToList();
-
-            Products.Clear();
-            foreach (var p in sorted)
-                Products.Add(p);
+            UpdateCollection(sorted);
         }
 
         private void btnSortByCategory(object sender, RoutedEventArgs e)
         {
             var sorted = Products.OrderBy(p => p.Category).ToList();
-
-            Products.Clear();
-            foreach (var p in sorted)
-                Products.Add(p);
+            UpdateCollection(sorted);
         }
 
         private void btnSortByBrand(object sender, RoutedEventArgs e)
         {
             var sorted = Products.OrderBy(p => p.Brand).ToList();
+            UpdateCollection(sorted);
+        }
 
+        private void btnReset(object sender, RoutedEventArgs e)
+        {
             Products.Clear();
-            foreach (var p in sorted)
-                Products.Add(p);
+            foreach (var p in _allProducts) Products.Add(p);
+        }
+
+        private void UpdateCollection(System.Collections.Generic.List<Product> newList)
+        {
+            Products.Clear();
+            foreach (var p in newList) Products.Add(p);
+        }
+
+        private void Product_Click(object sender, RoutedEventArgs e)
+        {
+            if (SelectedProduct == null) return;
+            NavigationService.Navigate(new ProductDetail(SelectedProduct));
+        }
+
+        private void btnAddToCart_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            var product = button?.DataContext as Product;
+
+            if (product != null)
+            {
+                var existingItem = ProductsData.Basket.FirstOrDefault(b => b.Product == product);
+                if (existingItem != null)
+                {
+                    existingItem.Quantity++;
+                }
+                else
+                {
+                    ProductsData.Basket.Add(new CartItem(product));
+                }
+                MessageBox.Show($"Товар «{product.Name}» добавлен в корзину!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
+        private void ListView_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            var item = ItemsControl.ContainerFromElement(sender as ListView, e.OriginalSource as DependencyObject) as ListViewItem;
+            if (item == null)
+            {
+                (sender as ListView).SelectedItem = null;
+            }
         }
     }
 }

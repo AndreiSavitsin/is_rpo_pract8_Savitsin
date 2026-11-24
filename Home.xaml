@@ -28,7 +28,17 @@
             </StackPanel>
         </StackPanel>
 
-        <Border Grid.Column="1" Grid.Row="1" Width="350" Height="150" Background="DarkOrange" CornerRadius="25">
+        <Border Grid.Column="1" Grid.Row="1" Width="350" Height="150" Background="DarkOrange" CornerRadius="25" Opacity="0">
+            <Border.Triggers>
+                <EventTrigger RoutedEvent="Loaded">
+                    <BeginStoryboard>
+                        <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:1.5"/>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" From="1" To="0.3" Duration="0:0:1.5"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Border.Triggers>
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                 <TextBlock Text="Приветствуем Вас в нашем магазине электроники! У нас огромный ассортимент и лучшие цены!" 
                        TextWrapping="Wrap" MaxWidth="300"
